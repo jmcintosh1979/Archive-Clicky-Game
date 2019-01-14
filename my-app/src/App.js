@@ -17,14 +17,9 @@ class App extends Component {
       <Wrapper>
         <Navbar />  
         <Header />
-        {this.state.Transformers.map(images => (
-          <TransformersCard
-            id={images.id}
-            key={images.id}
-            name={images.name}
-            image={images.image}
-          />
-        ))}
+        <TransformersCard
+         image={this.state.Transformers}
+        />
         <Footer /> 
       </Wrapper>
     )
