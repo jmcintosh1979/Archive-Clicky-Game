@@ -5,7 +5,7 @@ function TransformersCard(props) {
   return (
     <div className='card'>
       <div className='img-container'>
-        <img alt={props.name} src={props.image} />
+        <img src={props.image} alt={props.name} className="ind-img"/>
       </div>
     </div>
   )
