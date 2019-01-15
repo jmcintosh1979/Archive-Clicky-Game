@@ -9,7 +9,15 @@ import Footer from './components/Footer';
 class App extends Component {
   // Setting the state for images and score
   state = {
-    Transformers
+    curScore: "",
+    topScore: "",
+    message: "",
+    Transformers: [],
+    clickedImg: []
+  }
+
+  handleClickImage = event => {
+    return ("test")
   }
 
   render() {
