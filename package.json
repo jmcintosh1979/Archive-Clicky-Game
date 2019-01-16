@@ -1,8 +1,8 @@
 {
-  "name": "clicky-game3",
+  "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jmcintosh1979.github.io/clicky-game3/",
+  "homepage": "https://jmcintosh1979.github.io/Clicky-Game/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
